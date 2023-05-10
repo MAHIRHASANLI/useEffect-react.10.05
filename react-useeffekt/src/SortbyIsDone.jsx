@@ -1,6 +1,6 @@
 
 
-const SortbyIsDone = (todos,setToDos,Name,show, setShow) => {
+const SortbyIsDone = (todos,setToDos,name,show, setShow) => {
     function handeSort(){
         let array=[]
         todos.map((item)=>{
@@ -8,7 +8,7 @@ const SortbyIsDone = (todos,setToDos,Name,show, setShow) => {
                 array.push(item)}
             })
        
-            let sortShow = array.sort((a,b)=> a.Name - b.Name)
+            let sortShow = array.sort((a,b)=> a.name - b.name)
             setToDos(sortShow)
       
       }
