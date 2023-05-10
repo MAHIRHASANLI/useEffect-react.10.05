@@ -1,0 +1,43 @@
+.filmler{
+  width: 650px;
+  border:1px solid black;
+  margin:0 auto;
+  padding:20px;
+}
+.formInput{
+  display:flex;
+}
+.lilerim{
+  display:flex;
+  justify-content:space-between;
+}
+.ullerim{
+  margin-top:20px
+}
+button{
+  border-radius:5px;
+}
+.buttonlarim{
+  padding:30px;
+padding-right:0px;
+display:flex;
+  justify-content:space-between;
+
+}
+.form-control{
+  transition:.4s linear;
+}
+.form-control:hover{
+  background-color: rgba(206, 99, 99, 0.2);
+  transform:scale(1,02);
+  border:2px solid  rgba(206, 99, 99, 0.2);
+}
+.buttonlarim button{
+  background-color:transparent;
+  transition:.4s linear;
+}
+.buttonlarim button:hover{
+  background-color: rgba(206, 99, 99, 0.2);
+transform:scale(1,02);
+border:2px solid  rgba(206, 99, 99, 0.2);
+}
